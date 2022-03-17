@@ -1,0 +1,45 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sn= new Scanner(System.in);
+        int numpersonas;
+        int deseo;
+        int menu= sn.nextInt();
+
+        System.out.println("Ingrese la cantidad de personas");
+        numpersonas = sn.nextInt();
+        System.out.println("Elije el menú");
+        System.out.println("Si desea hamburguesa presiona 1");
+        System.out.println("Si desea Perro presiona 2");
+        System.out.println("Si desea Salchipapa presione 3");
+        System.out.println("Si desea Chorizos presione 4");
+        System.out.println("Que deseas");
+        deseo = sn.nextInt();
+        if (deseo==1){
+                System.out.println("Hamburguesa");
+        }
+        if (deseo==2){
+                System.out.println("Perro");
+        }
+        if (deseo==3){
+            System.out.println("Salchipapa");
+        }
+        if (deseo==4){
+            System.out.println("Chorizo");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
